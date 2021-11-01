@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bcg"
+    tools:context=".Step1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="Step 1/5"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="What is your purpose?"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="81dp"
+        android:text="Weight loss"
+        android:onClick="Click"
+        android:insetTop = "0dp"
+        android:insetBottom = "0dp"
+        android:insetLeft = "0dp"
+        android:insetRight = "0dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/weight_loss"
+        android:fontFamily="@font/nd_astroneer"
+        android:textAllCaps="false"
+        android:textColor="@color/titleclr"
+        android:textSize="24sp"
+        app:cornerRadius="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="29dp"
+        android:text="Keeping fit"
+        android:onClick="Click"
+        android:insetTop = "0dp"
+        android:insetBottom = "0dp"
+        android:insetLeft = "0dp"
+        android:insetRight = "0dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/keeping_fit"
+        android:fontFamily="@font/nd_astroneer"
+        android:textAllCaps="false"
+        android:textColor="@color/titleclr"
+        android:textSize="24sp"
+        app:cornerRadius="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="29dp"
+        android:text="Build muscle"
+        android:onClick="Click"
+        android:insetTop = "0dp"
+        android:insetBottom = "0dp"
+        android:insetLeft = "0dp"
+        android:insetRight = "0dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/build_muscle"
+        android:fontFamily="@font/nd_astroneer"
+        android:textAllCaps="false"
+        android:textColor="@color/titleclr"
+        android:textSize="24sp"
+        app:cornerRadius="39dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

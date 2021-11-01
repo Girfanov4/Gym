@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gym</string>
+    <string name="signup"><u>Sign Up</u></string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="back"><u>Back</u></string>
+    <string name="title">Home Gym</string>
+</resources>
