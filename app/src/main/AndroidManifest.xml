@@ -10,12 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gym">
         <activity
-            android:name=".MainActivity"
+            android:name=".Step5"
+            android:exported="true" />
+        <activity
+            android:name=".Step4"
+            android:exported="true" />
+        <activity
+            android:name=".Step3_m"
+            android:exported="true" />
+        <activity
+            android:name=".Step3_f"
+            android:exported="true" />
+        <activity
+            android:name=".Step2"
+            android:exported="true" />
+        <activity
+            android:name=".Step1"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".SignIn"
+            android:exported="true" />
+        <activity
+            android:name=".SpashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
