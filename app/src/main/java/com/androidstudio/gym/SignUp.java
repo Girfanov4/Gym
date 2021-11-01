@@ -36,7 +36,7 @@ public class SignUp extends AppCompatActivity {
         EditText email = findViewById(R.id.email);
         EditText passT = findViewById(R.id.password1);
         EditText passT2 = findViewById(R.id.password2);
-        String emailru = "@mail.ru",emailcom = "@gmail.com";
+        String emailru = "@",emailcom = "@gmail.com";
         if (logT.getText().toString().equals("") || email.getText().toString().equals("") || passT.getText().toString().equals("") || passT2.getText().toString().equals("")) {
             AlertDialog.Builder alert = new AlertDialog.Builder(SignUp.this);
             alert.setTitle("Ошибка");

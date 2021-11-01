@@ -21,6 +21,15 @@ public class SignIn extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
+        TextView skip = (TextView) findViewById(R.id.textView3);
+        skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignIn.this, MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
         TextView signup = (TextView) findViewById(R.id.textView2);
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
