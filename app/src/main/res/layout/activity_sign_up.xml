@@ -11,13 +11,11 @@
         android:id="@+id/password2"
         android:layout_width="312dp"
         android:layout_height="50dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/rounded_edittext"
         android:drawableLeft="@drawable/logopassword"
-
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
         android:paddingLeft="19dp"
-
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,10 +28,8 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/rounded_edittext"
         android:drawableLeft="@drawable/logopassword"
-
         android:inputType="textPassword"
         android:paddingLeft="19dp"
-
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,10 +44,9 @@
         android:drawableLeft="@drawable/logomail"
         android:hint="  ivanov@mail.ru"
         android:textColorHint="@android:color/darker_gray"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:paddingLeft="17dp"
         android:textColor="@color/black"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
@@ -124,7 +119,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="18dp"
         android:layout_marginBottom="45dp"
         android:fontFamily="@font/nd_astroneer"
         android:text="@string/back"

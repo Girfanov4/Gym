@@ -86,20 +86,8 @@ public class SignUp extends AppCompatActivity {
             });
             alert.show();
             return;
-        }if ((email.getText().toString().indexOf(emailcom) != 1)) {
-            AlertDialog.Builder alert = new AlertDialog.Builder(SignUp.this);
-            alert.setTitle("Ошибка");
-            alert.setMessage("Неверный Email");
-            alert.setIcon(android.R.drawable.ic_dialog_alert);
-            alert.setNegativeButton("Ок", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    dialog.cancel();
-                }
-            });
-            alert.show();
-            return;
         }
+
         String Log = logT.getText().toString();
         String Pass = passT.getText().toString();
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
