@@ -128,6 +128,8 @@
                 android:layout_weight="50"
                 android:ems="10"
                 android:hint="30 sec"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@color/black"
                 android:inputType="number" />
 
         </LinearLayout>
@@ -154,7 +156,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                />
+                android:textColorLink="#76A1D3" />
 
 
         </LinearLayout>
