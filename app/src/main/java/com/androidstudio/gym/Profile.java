@@ -11,8 +11,10 @@ import android.text.InputType;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 
 public class Profile extends AppCompatActivity {
@@ -22,6 +24,9 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+        TextView weighttv = (TextView) findViewById(R.id.textView30);
+        TextView heighttv = (TextView) findViewById(R.id.textView32);
+
         Button signout = (Button) findViewById(R.id.button28);
         signout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +46,7 @@ public class Profile extends AppCompatActivity {
             }
         });
         Button lessons = (Button) findViewById(R.id.button17);
-        plan.setOnClickListener(new View.OnClickListener() {
+        lessons.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Profile.this, Lessons.class);
@@ -73,15 +78,14 @@ public class Profile extends AppCompatActivity {
                 lay.addView(weight);
                 lay.addView(height);
                 builder.setView(lay);
-
                 // Set up the buttons
                 builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         //get the two inputs
-                        TextView weighttv = (TextView) findViewById(R.id.textView30);
+
                         weighttv.setText(weight.getText().toString());
 
-                        TextView heighttv = (TextView) findViewById(R.id.textView32);
+
                         heighttv.setText(height.getText().toString());
 
                     }
@@ -96,6 +100,9 @@ public class Profile extends AppCompatActivity {
             }
 
         });
+
+
+
     }
 }
 

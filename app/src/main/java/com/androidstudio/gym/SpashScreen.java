@@ -8,17 +8,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SpashScreen extends AppCompatActivity {
     private final int SPLASH_DISPLAY_LENGHT = 2000;
+    public boolean first = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spash_screen);
+
         new Handler().postDelayed(new Runnable() {
 
             @Override
 
             public void run() {
 
-                Intent mainIntent = new Intent(SpashScreen.this, MainActivity.class);
+                Intent mainIntent = new Intent(SpashScreen.this, Step1.class);
 
                 SpashScreen.this.startActivity(mainIntent);
 
@@ -27,5 +30,7 @@ public class SpashScreen extends AppCompatActivity {
             }
 
         }, SPLASH_DISPLAY_LENGHT);
+
     }
+
 }

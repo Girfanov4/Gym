@@ -9,5 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bcg">#2E70BE</color>
     <color name="titleclr">#6E9CD2</color>
+    <color name="switchon">#76A1D3</color>
 
 </resources>

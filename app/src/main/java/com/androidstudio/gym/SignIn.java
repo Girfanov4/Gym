@@ -25,8 +25,8 @@ public class SignIn extends AppCompatActivity {
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SignIn.this, MainActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(SignIn.this, MainActivity.class);
+                startActivity(intent1);
                 finish();
             }
         });
