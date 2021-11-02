@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gym">
         <activity
+            android:name=".Push_ups"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".Lessons"
+            android:exported="true" />
+        <activity
             android:name=".Step5"
             android:exported="true" />
         <activity

@@ -7,17 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Lessons extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Button lessons = (Button)findViewById(R.id.button17);
-        lessons.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_lessons);
+        Button plan = (Button)findViewById(R.id.button16);
+        plan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Lessons.class);
+                Intent intent = new Intent(Lessons.this,MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Profile.class);
+                Intent intent = new Intent(Lessons.this,Profile.class);
                 startActivity(intent);
                 finish();
             }
