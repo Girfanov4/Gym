@@ -52,7 +52,7 @@ public class Push_ups extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Push_ups.this,Profile    .class);
+                Intent intent = new Intent(Push_ups.this,Profile.class);
                 startActivity(intent);
                 finish();
             }
@@ -112,8 +112,9 @@ public class Push_ups extends AppCompatActivity {
             if (myTimer != null)
                 myTimer.cancel();
             isPaused = false;
-            tv_digital_clock.setText("Tap");
-
+            TextView textViewminutes = (TextView)findViewById(R.id.textView38) ;
+            textViewminutes.setText(tv_digital_clock.getText().toString());
+            tv_digital_clock.setText("Succes");
             tv_digital_clock.setEnabled(true);
         }
     }

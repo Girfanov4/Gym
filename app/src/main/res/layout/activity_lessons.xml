@@ -30,27 +30,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView24">
 
-        <Button
-            android:id="@+id/button15"
+        <TextView
+            android:id="@+id/tvhands"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/white"
             android:text="Hands"
+            android:background="@color/titleclr"
+            android:gravity="center"
             android:textAllCaps="false"
-            android:textColor="@color/titleclr"
+            android:textColor="@color/white"
             android:insetLeft="0dp"
             android:insetTop="0dp"
             android:insetRight="0dp"
             android:insetBottom="0dp"/>
 
-        <Button
-            android:id="@+id/button20"
+        <TextView
+            android:id="@+id/tvspine"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/white"
             android:text="Spine"
+            android:gravity="center"
             android:textAllCaps="false"
             android:textColor="@color/titleclr"
             android:insetLeft="0dp"
@@ -58,28 +59,30 @@
             android:insetRight="0dp"
             android:insetBottom="0dp"/>
 
-        <Button
-            android:id="@+id/button21"
+        <TextView
+            android:id="@+id/tvtorso"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/white"
+
             android:text="Torso"
             android:textAllCaps="false"
+            android:gravity="center"
+
             android:textColor="@color/titleclr"
             android:insetLeft="0dp"
             android:insetTop="0dp"
             android:insetRight="0dp"
             android:insetBottom="0dp"/>
 
-        <Button
-            android:id="@+id/button22"
+        <TextView
+            android:id="@+id/tvlegs"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="36dp"
             android:layout_weight="1"
-            android:backgroundTint="@color/white"
             android:text="Legs"
             android:textAllCaps="false"
+            android:gravity="center"
             android:textColor="@color/titleclr"
             android:insetLeft="0dp"
             android:insetTop="0dp"
@@ -161,17 +164,77 @@
             android:insetBottom="0dp"/>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="391dp"
-        android:layout_height="586dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        android:orientation="vertical"
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/logo_hands"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="bottom"
+                android:paddingLeft="15dp"
+                android:textAllCaps="false"
+                android:paddingBottom="15dp"
+                android:textColor="@color/titleclr"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/logo_hands"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="bottom"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/titleclr"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/logo_hands"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="bottom"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/titleclr"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/logo_hands"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="bottom"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/titleclr"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
