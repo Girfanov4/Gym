@@ -93,14 +93,12 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="660dp"
+        android:layout_height="wrap_content"
         android:background="@color/white"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <Button
@@ -112,11 +110,7 @@
             android:drawableTop="@drawable/plan"
             android:fontFamily="@font/nd_astroneer"
             android:text="Plan"
-            android:textColor="@color/titleclr"
-            android:insetLeft="0dp"
-            android:insetTop="0dp"
-            android:insetRight="0dp"
-            android:insetBottom="0dp"/>
+            android:textColor="@color/titleclr" />
 
         <Button
             android:id="@+id/button17"
@@ -127,11 +121,7 @@
             android:drawableTop="@drawable/lessons"
             android:fontFamily="@font/nd_astroneer"
             android:text="Lessons"
-            android:textColor="@color/titleclr"
-            android:insetLeft="0dp"
-            android:insetTop="0dp"
-            android:insetRight="0dp"
-            android:insetBottom="0dp"/>
+            android:textColor="@color/titleclr" />
 
         <Button
             android:id="@+id/button18"
@@ -142,11 +132,7 @@
             android:drawableTop="@drawable/reports"
             android:fontFamily="@font/nd_astroneer"
             android:text="Reports"
-            android:textColor="@color/titleclr"
-            android:insetLeft="0dp"
-            android:insetTop="0dp"
-            android:insetRight="0dp"
-            android:insetBottom="0dp"/>
+            android:textColor="@color/titleclr" />
 
         <Button
             android:id="@+id/button19"
@@ -157,11 +143,7 @@
             android:drawableTop="@drawable/profile"
             android:fontFamily="@font/nd_astroneer"
             android:text="Profile"
-            android:textColor="@color/titleclr"
-            android:insetLeft="0dp"
-            android:insetTop="0dp"
-            android:insetRight="0dp"
-            android:insetBottom="0dp"/>
+            android:textColor="@color/titleclr" />
     </LinearLayout>
 
     <ScrollView

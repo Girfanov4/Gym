@@ -10,14 +10,12 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="37dp"
+        android:layout_height="wrap_content"
         android:background="@color/white"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button31">
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <Button
@@ -213,20 +211,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="22dp"
-        android:layout_marginBottom="514dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView34"
-        app:srcCompat="@drawable/push_ups" />
-
     <Button
         android:id="@+id/button32"
         android:layout_width="317dp"
@@ -234,7 +218,7 @@
         android:layout_marginStart="29dp"
         android:layout_marginTop="14dp"
         android:layout_marginEnd="29dp"
-       android:background="@drawable/crug"
+        android:background="@drawable/crug"
         android:fontFamily="@font/nd_astroneer"
         android:insetLeft="0dp"
         android:insetTop="0dp"
@@ -248,6 +232,15 @@
         app:cornerRadius="1000dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+        app:layout_constraintTop_toBottomOf="@+id/gifPushUps" />
+
+    <com.androidstudio.gym.GifPushUps
+        android:id="@+id/gifPushUps"
+        android:layout_width="330dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="34dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

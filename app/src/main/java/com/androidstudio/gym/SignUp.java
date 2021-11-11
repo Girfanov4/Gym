@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -18,6 +20,8 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+        Window window = getWindow();
+        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         TextView back = (TextView) findViewById(R.id.textView8);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,7 +77,7 @@ public class SignUp extends AppCompatActivity {
             alert.show();
             return;
         }
-        if ((email.getText().toString().indexOf(emailru) != 1)) {
+        if (!email.getText().toString().contains(emailru)) {
             AlertDialog.Builder alert = new AlertDialog.Builder(SignUp.this);
             alert.setTitle("Ошибка");
             alert.setMessage("Неверный Email");
@@ -98,7 +102,7 @@ public class SignUp extends AppCompatActivity {
         for (User item : SignIn.Users) {
             if (Log.equals(item.login)) {
                 found = true;
-                alert.setTitle("Уже сществует");
+                alert.setTitle("Уже существует");
                 alert.setMessage("Пользователь существует");
                 alert.show();
             }

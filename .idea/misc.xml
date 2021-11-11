@@ -4,28 +4,45 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.290625" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/anim.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/button_no_press.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/button_press.xml" value="0.24473684210526317" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/crug.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/crug_blue.xml" value="0.24473684210526317" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/crug_grey.xml" value="0.24473684210526317" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/ic_launcher_background.xml" value="0.290625" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/my_gradient_drawable.xml" value="0.24473684210526317" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/progressbar.xml" value="0.24473684210526317" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/rounded_button.xml" value="0.24473684210526317" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/rounded_button_plus_ramka.xml" value="0.24473684210526317" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/rounded_edittext.xml" value="0.2824074074074074" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/rounded_textview.xml" value="0.24473684210526317" />
-        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_lessons.xml" value="0.264" />
-        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/drawable/rounded_textview_blue.xml" value="0.24155844155844156" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_lessons.xml" value="0.4" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_my_run_list.xml" value="0.23114035087719298" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_profile.xml" value="0.264" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_push_ups.xml" value="0.264" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_push_ups_menu.xml" value="0.264" />
-        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
-        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_push_ups_stop.xml" value="0.176" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_reports.xml" value="0.2" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_run.xml" value="0.264" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_run_menu.xml" value="0.23114035087719298" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_sign_in.xml" value="0.176" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_sign_up.xml" value="0.6" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_sit_up.xml" value="0.23114035087719298" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_sit_up_menu.xml" value="0.4" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_sit_up_stop.xml" value="0.176" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_spash_screen.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_step1.xml" value="0.264" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_step1.xml" value="0.2" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_step2.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_step3_f.xml" value="0.23981481481481481" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_step3_m.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_step4.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_step5.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_trunk_inclinations.xml" value="0.23114035087719298" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_trunk_inclinations_menu.xml" value="0.23114035087719298" />
+        <entry key="..\:/Users/1/AndroidStudioProjects/Gym/app/src/main/res/layout/activity_trunk_inclinations_stop.xml" value="0.23114035087719298" />
       </map>
     </option>
   </component>

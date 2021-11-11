@@ -52,7 +52,7 @@
         android:textAllCaps="false"
         android:textColor="@color/titleclr"
         android:textSize="24sp"
-        app:cornerRadius="39dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />

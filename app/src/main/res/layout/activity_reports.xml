@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Reports">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/plan"
+            android:fontFamily="@font/nd_astroneer"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:text="Plan"
+            android:textColor="@color/titleclr" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/lessons"
+            android:fontFamily="@font/nd_astroneer"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:text="Lessons"
+            android:textColor="@color/titleclr" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/reports"
+            android:fontFamily="@font/nd_astroneer"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:text="Reports"
+            android:textColor="@color/titleclr" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/profile"
+            android:fontFamily="@font/nd_astroneer"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:text="Profile"
+            android:textColor="@color/titleclr" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="0dp"
+        android:layout_height="98dp"
+        android:background="@drawable/my_gradient_drawable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="Reports"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="320dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="299dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="Training"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="Kcal"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="321dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="22dp"
+        android:fontFamily="@font/nd_astroneer"
+        android:text="Minutes"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="11dp"
+        android:fontFamily="@font/nd_astroneer"
+
+        android:text="Calendar"
+        android:textColor="#6F9DD2"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/currentDateTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="Sa"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/rounded_textview_blue"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="18"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="Su"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/rounded_textview_blue"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="18"
+                android:textColor="#6F9DD2"
+
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="Mo"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/rounded_textview_blue"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="18"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="Tu"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/rounded_textview_blue"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="18"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="We"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/rounded_textview_blue"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="18"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="Th"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/rounded_textview_blue"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="18"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="Fr"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:background="@drawable/rounded_textview_blue"
+                android:fontFamily="@font/nd_astroneer"
+                android:gravity="center"
+                android:text="18"
+                android:textColor="#6F9DD2"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

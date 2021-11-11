@@ -4,4 +4,15 @@
     <string name="skip"><u>Skip</u></string>
     <string name="back"><u>Back</u></string>
     <string name="title">Home Gym</string>
+
+    <string name="Newbie">Newbie \n Just getting started</string>
+    <string name="Newbie_desc"></string>
+
+    <string name="Keep_on">Keep on \n 1-2 times a week</string>
+    <string name="Keep_on_desc"></string>
+
+    <string name="Advanced">Advanced \n More than 3 times a week</string>
+    <string name="Advanced_desc"></string>
+
+
 </resources>

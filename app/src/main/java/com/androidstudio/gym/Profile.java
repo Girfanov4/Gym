@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.text.InputType;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
@@ -24,6 +26,8 @@ public class Profile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+        Window window = getWindow();
+        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         TextView weighttv = (TextView) findViewById(R.id.textView30);
         TextView heighttv = (TextView) findViewById(R.id.textView32);
 

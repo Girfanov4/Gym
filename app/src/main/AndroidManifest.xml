@@ -10,6 +10,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gym">
         <activity
+            android:name=".Reports"
+            android:exported="true" />
+        <activity
+            android:name=".MyRunList"
+            android:exported="true" />
+        <activity
+            android:name=".Run"
+            android:exported="true" />
+        <activity
+            android:name=".RunMenu"
+            android:exported="true" />
+        <activity
+            android:name=".TrunkInclinationsStop"
+            android:exported="true" />
+        <activity
+            android:name=".TrunkInclinations"
+            android:exported="true" />
+        <activity
+            android:name=".TrunkInclinationsMenu"
+            android:exported="true" />
+        <activity
+            android:name=".SitUpStop"
+            android:exported="true" />
+        <activity
+            android:name=".PushUpsStop"
+            android:exported="true" />
+        <activity
+            android:name=".SitUpMenu"
+            android:exported="true" />
+        <activity
+            android:name=".SitUp"
+            android:exported="true" />
+        <activity
             android:name=".PushUpsMenu"
             android:exported="true" />
         <activity
