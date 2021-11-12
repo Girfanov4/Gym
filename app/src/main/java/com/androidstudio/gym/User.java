@@ -1,5 +1,5 @@
 package com.androidstudio.gym;
-
+// класс user
 public class User {
     public static String LastUser;
     String login, password;
